@@ -33,6 +33,8 @@ body {
   height: 100%;
   border-radius: 1rem;
   overflow: hidden;
+  background: linear-gradient(to right, #d09794, #4a5e71);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -65,8 +67,10 @@ body {
 }
 .article-detail-container {
   max-width: 768px;
-  margin: 0 auto;
+  margin: 1rem;
   padding: 1rem;
+  background: linear-gradient(to right, #d09794, #4a5e71);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .detail-img {

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { format } from "date-fns";
 import { ArticleDetail } from "../types";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 export function ArticleDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -43,6 +43,11 @@ export function ArticleDetailPage() {
       >
         Leggi su sito ufficiale
       </a>
+      <Link to={"/"}>
+        <Button variant="outline-dark" className="ms-5">
+          Home
+        </Button>
+      </Link>
     </Container>
   );
 }
