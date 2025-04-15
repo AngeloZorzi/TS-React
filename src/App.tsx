@@ -1,10 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ArticleDetailPage } from "./components/ArticleDeletePage";
+import ArticleDetailPage from "./components/ArticleDetailPage";
 import CardList from "./components/CardList";
 import CustomNav from "./components/CustomNav";
-import CustomFooter from "./components/CusyomFooter";
+import CustomFooter from "./components/CustomFooter";
 
 function App() {
   return (

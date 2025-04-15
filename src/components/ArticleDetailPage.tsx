@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import { ArticleDetail } from "../types";
 import { Button, Container } from "react-bootstrap";
 
-export function ArticleDetailPage() {
+function ArticleDetailPage() {
   const { id } = useParams<{ id: string }>();
   const [article, setArticle] = useState<ArticleDetail | null>(null);
 
@@ -51,3 +51,4 @@ export function ArticleDetailPage() {
     </Container>
   );
 }
+export default ArticleDetailPage;
