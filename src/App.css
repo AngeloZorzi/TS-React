@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  min-height: 100vh;
+
+  background: -webkit-linear-gradient(to right, #fd746c, #2c3e50);
+  background: linear-gradient(to right, #fd746c, #2c3e50);
+  font-family: "Asap", sans-serif;
+}
